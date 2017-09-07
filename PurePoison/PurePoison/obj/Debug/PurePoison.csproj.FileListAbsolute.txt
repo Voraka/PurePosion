@@ -1,0 +1,6 @@
+C:\C#_Debug\PurePoison\PurePoison\bin\Debug\PurePoison.exe.config
+C:\C#_Debug\PurePoison\PurePoison\bin\Debug\PurePoison.exe
+C:\C#_Debug\PurePoison\PurePoison\bin\Debug\PurePoison.pdb
+C:\C#_Debug\PurePoison\PurePoison\obj\Debug\PurePoison.csprojResolveAssemblyReference.cache
+C:\C#_Debug\PurePoison\PurePoison\obj\Debug\PurePoison.exe
+C:\C#_Debug\PurePoison\PurePoison\obj\Debug\PurePoison.pdb
